@@ -1,0 +1,112 @@
+[
+  {
+    "package": "paws",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws"
+  },
+  {
+    "package": "paws.analytics",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.analytics"
+  },
+  {
+    "package": "paws.application.integration",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.application.integration"
+  },
+  {
+    "package": "paws.business.applications",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.business.applications"
+  },
+  {
+    "package": "paws.compute",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.compute"
+  },
+  {
+    "package": "paws.cost.management",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.cost.management"
+  },
+  {
+    "package": "paws.customer.engagement",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.customer.engagement"
+  },
+  {
+    "package": "paws.database",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.database"
+  },
+  {
+    "package": "paws.developer.tools",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.developer.tools"
+  },
+  {
+    "package": "paws.end.user.computing",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.end.user.computing"
+  },
+  {
+    "package": "paws.game.development",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.game.development"
+  },
+  {
+    "package": "paws.internet.of.things",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.internet.of.things"
+  },
+  {
+    "package": "paws.machine.learning",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.machine.learning"
+  },
+  {
+    "package": "paws.management",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.management"
+  },
+  {
+    "package": "paws.media.services",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.media.services"
+  },
+  {
+    "package": "paws.migration",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.migration"
+  },
+  {
+    "package": "paws.mobile",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.mobile"
+  },
+  {
+    "package": "paws.networking",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.networking"
+  },
+  {
+    "package": "paws.robotics",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.robotics"
+  },
+  {
+    "package": "paws.security.identity",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.security.identity"
+  },
+  {
+    "package": "paws.storage",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.storage"
+  },
+  {
+    "package": "paws.common",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "paws.common"
+  }
+]

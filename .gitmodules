@@ -1,0 +1,3 @@
+[submodule "paws"]
+	path = paws
+	url = https://github.com/paws-r/paws
