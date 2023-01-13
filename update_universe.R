@@ -5,4 +5,4 @@ df <- data.frame(package = list.files(paws_tree))
 df$url <- url
 df$subdir <- sprintf("cran/%s", df$package)
 paws.common <- c("paws.common", url, "paws.common")
-jsonlite::write_json(rbind(df, paws.common), "package.json", pretty = T)
+jsonlite::write_json(rbind(df, paws.common), "packages.json", pretty = T)
