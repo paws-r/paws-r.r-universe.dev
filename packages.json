@@ -25,6 +25,16 @@
     "subdir": "cran/paws.compute"
   },
   {
+    "package": "paws.compute.p1",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.compute.p1"
+  },
+  {
+    "package": "paws.compute.p2",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.compute.p2"
+  },
+  {
     "package": "paws.cost.management",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.cost.management"
@@ -70,6 +80,16 @@
     "subdir": "cran/paws.management"
   },
   {
+    "package": "paws.management.p1",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.management.p1"
+  },
+  {
+    "package": "paws.management.p2",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.management.p2"
+  },
+  {
     "package": "paws.media.services",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.media.services"
@@ -98,6 +118,16 @@
     "package": "paws.security.identity",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.security.identity"
+  },
+  {
+    "package": "paws.security.identity.p1",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.security.identity.p1"
+  },
+  {
+    "package": "paws.security.identity.p2",
+    "url": "https://github.com/paws-r/paws",
+    "subdir": "cran/paws.security.identity.p2"
   },
   {
     "package": "paws.storage",
