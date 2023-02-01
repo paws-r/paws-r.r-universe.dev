@@ -5,36 +5,6 @@
     "subdir": "paws.common"
   },
   {
-    "package": "paws.compute.p1",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.compute.p1"
-  },
-  {
-    "package": "paws.compute.p2",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.compute.p2"
-  },
-  {
-    "package": "paws.management.p1",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.management.p1"
-  },
-  {
-    "package": "paws.management.p2",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.management.p2"
-  },
-  {
-    "package": "paws.security.identity.p1",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.security.identity.p1"
-  },
-  {
-    "package": "paws.security.identity.p2",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.security.identity.p2"
-  },
-  {
     "package": "paws.analytics",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.analytics"
