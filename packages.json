@@ -1,5 +1,9 @@
 [
   {
+    "package": "awscrt",
+    "url": "https://github.com/paws-r/aws-crt-r"
+  },
+  {
     "package": "paws.common",
     "url": "https://github.com/paws-r/paws",
     "subdir": "paws.common"
@@ -13,11 +17,6 @@
     "package": "paws.application.integration",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.application.integration"
-  },
-  {
-    "package": "paws.business.applications",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.business.applications"
   },
   {
     "package": "paws.compute",
@@ -50,16 +49,6 @@
     "subdir": "cran/paws.end.user.computing"
   },
   {
-    "package": "paws.game.development",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.game.development"
-  },
-  {
-    "package": "paws.internet.of.things",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.internet.of.things"
-  },
-  {
     "package": "paws.machine.learning",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.machine.learning"
@@ -70,29 +59,9 @@
     "subdir": "cran/paws.management"
   },
   {
-    "package": "paws.media.services",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.media.services"
-  },
-  {
-    "package": "paws.migration",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.migration"
-  },
-  {
-    "package": "paws.mobile",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.mobile"
-  },
-  {
     "package": "paws.networking",
     "url": "https://github.com/paws-r/paws",
     "subdir": "cran/paws.networking"
-  },
-  {
-    "package": "paws.robotics",
-    "url": "https://github.com/paws-r/paws",
-    "subdir": "cran/paws.robotics"
   },
   {
     "package": "paws.security.identity",

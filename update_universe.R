@@ -1,31 +1,37 @@
 paws_tree <- "./paws/cran"
 
 url <- "https://github.com/paws-r/paws"
-df <- data.frame(package = list.files(paws_tree))
-df$url <- url
-df$subdir <- sprintf("cran/%s", df$package)
-paws.common <- c("paws.common", url, "paws.common")
-df <- rbind(df, paws.common)
 
-list_sub_cat_pkgs <- function(pkgs){
+list_sub_cat_pkgs <- function(pkgs) {
   return(pkgs[grepl(".p[0-9]+$", pkgs)])
 }
 
-list_cat_pkgs <- function(pkgs){
+list_cat_pkgs <- function(pkgs) {
   pkgs <- pkgs[grepl("paws[.].*$", pkgs)]
   pkgs <- pkgs[!grepl(".p[0-9]+$", pkgs)]
   return(pkgs[!grepl("paws.common", pkgs)])
 }
 
+core_pkgs <- list.files(paws_tree)
+
 build_order <- c(
-  "paws.common",
-  list_sub_cat_pkgs(df$package),
-  list_cat_pkgs(df$package),
+  list_sub_cat_pkgs(core_pkgs),
+  list_cat_pkgs(core_pkgs),
   "paws"
 )
 
+core_pkg <- lapply(build_order, \(pkg) {
+  list(package = pkg, url = url, subdir = sprintf("cran/%s", pkg))
+})
+
+support_pkg <- list(
+  list(package = "awscrt", url = "https://github.com/paws-r/aws-crt-r"),
+  list(package = "paws.common", url = url, subdir = "paws.common")
+)
+
 jsonlite::write_json(
-  df[match(build_order, df$package),],
+  c(support_pkg, core_pkg),
   "packages.json",
-  pretty = T
+  pretty = T,
+  auto_unbox = T
 )
